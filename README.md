@@ -6,9 +6,9 @@ This library provides a simulation of a flat solar collector for the water heati
 
 ## Data 
 
-DData was collected for the Almaty region, Kazakhstan, and for one year. In the [a link](https://github.com/TimuMZh/Data) folder there are 2 files. Files contain time in sec. with one hour step and solar irradiation and ambient temperature:
-1. [a link](https://github.com/TimuMZh/Data/Time_serial_irradiation_Almaty.csv) is irradiation of Almaty city location.
-2. [a link](https://github.com/TimuMZh/Data/Time_serial_temperature_Almaty.csv) is ambient temperature of Almaty city ocation
+DData was collected for the Almaty region, Kazakhstan, and for one year. In the [Data](https://github.com/TimuMZh/Data) folder there are 2 files. Files contain time in sec. with one hour step and solar irradiation and ambient temperature:
+1. [Time_serial_irradiation_Almaty](https://github.com/TimuMZh/Data/Time_serial_irradiation_Almaty.csv) is irradiation of Almaty city location.
+2. [Time_serial_temperature_Almaty](https://github.com/TimuMZh/Data/Time_serial_temperature_Almaty.csv) is ambient temperature of Almaty city ocation
 
 ## Example
 Numerical simulations were conducted for different examples such as one year, 3, and 9 days data.
@@ -21,6 +21,14 @@ Steps to run the simulation:
 
 <p align="center">
 <img align="middle" src="./Images/Setting_data.jpg" alt="Origin" width="250" />
+</p>
+
+## Visualization result
+
+The .m files [Plotting_one_year_data](https://github.com/TimuMZh/Plotting_one_year_data.m) and [Plotting_3_days_data](https://github.com/TimuMZh/Plotting_3_days_data.m) ploted the result of simulation. Below you can see the result of simulation:
+
+<p align="center">
+<img align="middle" src="./Images/Temperature_collector_st_tank_pump_one_year.png" alt="Origin" width="250" />
 </p>
 
 If you found this library useful in your research, please consider citing.
