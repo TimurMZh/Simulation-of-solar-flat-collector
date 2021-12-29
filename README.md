@@ -16,11 +16,11 @@ Numerical simulations were conducted for different examples such as one year, 3,
 Steps to run the simulation:
 1. To import data (irradiation and temperature) into the workspace of the Matlab session.
 2. To add data to the model simulation:
-  - For 1-D Temperature select *Temperature* instead of *DrybulbC* in Table data and *Time_h* instead of *Breakpoints 1*. 
-  - For 1-D Solar irradiation select *Solar_irradiation W* instead of *GHIWm2* in Table data and *Time_h* instead of *Breakpoints 1*.  
+  - For 1-D Temperature, select *Temperature* instead of *DrybulbC* in Table data and *Time_h* instead of *Breakpoints 1*. 
+  - For 1-D Solar irradiation, select *Solar_irradiation W* instead of *GHIWm2* in Table data and *Time_h* instead of *Breakpoints 1*.  
 
 <p align="center">
-<img align="middle" src="./Images/Setting_data.jpg" alt="Origin" width="250" height="250" />
+<img align="middle" src="./Images/Setting_data.jpg" alt="Origin" />
 </p>
 
 If you found this library useful in your research, please consider citing.
