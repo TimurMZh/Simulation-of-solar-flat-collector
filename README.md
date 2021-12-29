@@ -4,9 +4,24 @@
 
 This library provides a simulation of a flat solar collector for the water heating system with the Kazakhstan climate condition. The simulation of the solar heating system is done in Matlab (Simulink). The solar system is simulated by the mathematical model (ODE model) of energy.
 
+## Data 
+
+DData was collected for the Almaty region, Kazakhstan, and for one year. In the [a link] (https://github.com/TimuMZh/Data) folder there are 2 files. Files contain time in sec. with one hour step and solar irradiation and ambient temperature:
+1. [a link] (https://github.com/TimuMZh/Data/Time_serial_irradiation_Almaty.csv) is irradiation of Almaty city location.
+2. [a link] (https://github.com/TimuMZh/Data/Time_serial_temperature_Almaty.csv) is ambient temperature of Almaty city ocation
+
 ## Example
 Numerical simulations were conducted for different examples such as one year, 3, and 9 days data.
 
+Steps to run the simulation:
+1. To import data (irradiation and temperature) into the workspace of the Matlab session.
+2. To add data to the model simulation:
+  - For 1-D Temperature select *Temperature* instead of *DrybulbC* in Table data and *Time_h* instead of *Breakpoints 1*. 
+  - For 1-D Solar irradiation select *Solar_irradiation W* instead of *GHIWm2* in Table data and *Time_h* instead of *Breakpoints 1*.  
+
+<p align="center">
+<img align="middle" src="./Images/Setting_data.jpg" alt="Origin" width="250" height="250" />
+</p>
 
 If you found this library useful in your research, please consider citing.
 ```
